@@ -56,7 +56,7 @@ app.post('/url', slowDown({
       slug,
       url,
     });
-    if (url.includes('shortiny.herokuapp.com')) {
+    if (url.includes('shortiny.vercel.app')) {
       throw new Error('Stop it. 🛑');
     }
     if (!slug) {
