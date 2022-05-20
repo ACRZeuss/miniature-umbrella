@@ -56,7 +56,7 @@ app.post('/url', slowDown({
       slug,
       url,
     });
-    if (url.includes('shortiny.vercel.app')) {
+    if (url.includes('stny.ml')) {
       throw new Error('Stop it. 🛑');
     }
     if (!slug) {
