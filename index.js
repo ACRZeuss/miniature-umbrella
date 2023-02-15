@@ -56,7 +56,7 @@ app.post('/url', slowDown({
       slug,
       url,
     });
-    if (url.includes('stny.ml')) {
+    if (url.includes('www.stny.ml')) {
       throw new Error('Stop it. 🛑');
     }
     if (!slug) {
