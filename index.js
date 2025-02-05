@@ -56,7 +56,7 @@ app.post('/url', slowDown({
       slug,
       url,
     });
-    if (url.includes('shortiny.erhanpolat.net')) {
+    if (url.includes('erhanpolat.net')) {
       throw new Error('Stop it. 🛑');
     }
     if (!slug) {

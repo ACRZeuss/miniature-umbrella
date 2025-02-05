@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "CJ R. <cj@null.computer> (https://w3cj.sh)",
+  "author": "Erhan Polat <erhan@erhanpolat.net> (https://erhanpolat.net)",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
